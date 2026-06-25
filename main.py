@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import argparse
-import getpass
+import os
 import sys
 
 from src.parser import extract_text
@@ -33,9 +33,10 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
 
-    api_key = args.api_key
+    api_key = args.api_key or os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        api_key = getpass.getpass("Anthropic API key: ")
+        print("Error: set the ANTHROPIC_API_KEY environment variable or pass --api-key", file=sys.stderr)
+        sys.exit(1)
 
     try:
         print(f"Extracting text from {args.resume}...")

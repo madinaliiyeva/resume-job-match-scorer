@@ -10,8 +10,10 @@ def extract_text(file_path: str) -> str:
         return _extract_from_pdf(path)
     elif suffix in (".docx", ".doc"):
         return _extract_from_docx(path)
+    elif suffix == ".txt":
+        return path.read_text(encoding="utf-8").strip()
     else:
-        raise ValueError(f"Unsupported file type: {suffix}. Expected .pdf or .docx")
+        raise ValueError(f"Unsupported file type: {suffix}. Expected .pdf, .docx, or .txt")
 
 
 def _extract_from_pdf(path: pathlib.Path) -> str:

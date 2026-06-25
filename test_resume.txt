@@ -1,0 +1,28 @@
+Jane Doe
+jane.doe@email.com | (555) 123-4567 | linkedin.com/in/janedoe | github.com/janedoe
+
+SUMMARY
+Backend software engineer with 4 years of experience building Python-based APIs and data pipelines. Comfortable working in fast-paced startup environments and cross-functional teams.
+
+EXPERIENCE
+
+Software Engineer — Acme Analytics (2022–Present)
+- Built and maintained REST APIs using Python and FastAPI serving 50k+ daily requests
+- Designed ETL pipelines with Apache Airflow to process 10GB+ of daily event data
+- Wrote unit and integration tests with pytest, achieving 85% code coverage
+- Participated in on-call rotation and resolved production incidents using Datadog
+
+Junior Software Engineer — Bright Labs (2020–2022)
+- Developed internal tooling in Python and Flask to automate QA workflows
+- Migrated legacy MySQL queries to SQLAlchemy ORM, reducing query time by 30%
+- Collaborated with frontend team on REST API contract design using OpenAPI spec
+
+EDUCATION
+B.S. Computer Science — State University, 2020
+
+SKILLS
+Languages: Python, SQL, Bash
+Frameworks: FastAPI, Flask, SQLAlchemy, Airflow
+Databases: PostgreSQL, MySQL, Redis
+Tools: Docker, Git, GitHub Actions, Datadog, Jira
+Cloud: AWS (EC2, S3, RDS, Lambda) — basic experience

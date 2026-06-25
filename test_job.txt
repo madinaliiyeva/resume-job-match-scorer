@@ -1,0 +1,29 @@
+Senior Backend Engineer — DataFlow Inc.
+
+About the Role
+We're looking for a Senior Backend Engineer to join our platform team. You'll design and own core services that power our real-time data ingestion and analytics product used by 500+ enterprise customers.
+
+Responsibilities
+- Design, build, and maintain high-throughput microservices in Python
+- Lead technical design discussions and mentor junior engineers
+- Build and operate data pipelines processing millions of events per day
+- Drive reliability improvements: observability, alerting, incident response
+- Collaborate with ML and frontend teams to ship product features end to end
+
+Requirements
+- 5+ years of professional software engineering experience
+- Strong Python skills; experience with async frameworks (FastAPI, aiohttp) preferred
+- Experience designing and operating distributed systems at scale
+- Proficiency with PostgreSQL or similar relational databases
+- Familiarity with cloud infrastructure (AWS preferred): EC2, S3, RDS, EKS
+- Experience with containerization (Docker, Kubernetes)
+- Solid understanding of CI/CD practices
+
+Nice to Have
+- Experience with Kafka or other event streaming systems
+- Prior tech lead or mentorship experience
+- Familiarity with dbt or data transformation tooling
+- Experience with Terraform or infrastructure-as-code
+
+We Offer
+Competitive salary ($160k–$200k), equity, full remote, unlimited PTO.
